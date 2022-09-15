@@ -49,11 +49,54 @@ h2{
     margin-bottom: 45px;
 }
 
-/* ------ MAIN ----- */
-.our-team{
-    height: 244px;
-
+/* --------- MAIN -------- */
+/* --- line1 --- */
+.line1{
+    border: 2px solid purple;
+    height: 122px;
+    font-size: 0px;
 }
+
+.box2{
+    margin: 0 21px;
+}
+
+.box3{
+    float: right;
+    background-color: aqua;
+}
+
+/* --- line2 --- */
+.line2{
+    border: 2px solid lawngreen;
+    position: relative;
+    height: 122px;
+    font-size: 0px;
+}
+
+.box4{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.box5{
+    background-color: peru;
+    position: absolute;
+    margin: 0 379px;
+    bottom:0;
+}
+
+.box6{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* #conteiner::after{
+  content: "";
+  display: table;
+} */
 
 .member{
     width: 358px;
@@ -61,3 +104,6 @@ h2{
     background-color: rgba(15,14,23,255);
     display: inline-block;
 }
+
+
+
