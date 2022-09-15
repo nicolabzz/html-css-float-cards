@@ -51,20 +51,17 @@ h2{
 
 /* ------ MAIN ----- */
 .team{
-    border: 1px solid chocolate;/*bordo da rimuovere*/
-    height: 289px;
+    height: 244px;
 
 }
 
-.member-name{
+.team-member{
     width: 358px;
     height: 95px;
-    border: 2px solid chartreuse;
-    background-color: aqua;
+    background-color: rgba(15,14,23,255);
     display: inline-block;
 }
 
-.ROSSI{
-    border: 3px solid purple;
+.member-3{
+    float: right;
 }
-
