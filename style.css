@@ -9,11 +9,11 @@ body{
 }
 
 /* ---- fonts ----*/
-.Fredoka>h1{
+.Fredoka>h1, .info-name{
     font-family: 'Fredoka One', cursive;
 }
 
-.Poppins>h2{
+.Poppins>h2, .work, .email{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -22,14 +22,6 @@ body{
     width: 1120px;
     height: 465px;
     margin: auto;
-}
-
-.Fredoka>h1{
-    font-family: 'Fredoka One', cursive;
-}
-
-.Poppins>p{
-    font-family: 'Poppins', sans-serif;
 }
 
 h1{
@@ -55,61 +47,46 @@ p{
     font-size: 0px;
 }
 
-.box1{
-    float: left;
-}
-
-.box2{
-    margin: 0 21px;
-}
-
-.box3{
-    float: right;
-    background-color: aqua;
-}
-
 /* --- line2 --- */
 .line2{
-    position: relative;
     height: 122px;
     font-size: 0px;
 }
 
-.box4{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.box5{
-    background-color: peru;
-    position: absolute;
-    margin: 0 379px;
-    bottom:0;
-}
-
-.box6{
-    position:absolute;
-    bottom: 0;
-    right: 0;
-}
-
-/* #conteiner::after{
-  content: "";
-  display: table;
-} */
-
+/* --- membri ed info --- */
 .member{
-    width: 358px;
-    height: 95px;
-    background-color: rgba(15,14,23,255);
-    display: inline-block;
+    float: left;
+    width: 30%;
+    margin: 18px;
+    border-radius: 4px;
+    background-color: rgba(15,14,23,255); 
+    box-shadow: 10px 10px 10px 10px rgb(121, 121, 121);
 }
 
-/* -- .box info --- */
-.info{
-    background-size: 95px;
-    height: 95px;
-    background-repeat: no-repeat;
+img{
+    float: left;
+    width: 30%;
+    border-radius: 4px;
 }
 
+.info-name{
+    color: antiquewhite;
+    font-size: 25px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+
+.work{
+    color: rgba(232,215,212,255);
+    font-size: 13px;
+    margin-left: 115px;
+    margin-bottom: 5px;
+}
+
+.email{
+    color: rgb(132, 132, 194);
+    font-size: 14px;
+    margin-left: 115px;
+    text-decoration: underline;
+    font-weight: 200;
+}
