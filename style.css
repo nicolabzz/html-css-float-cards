@@ -1,8 +1,3 @@
-/*
-font-family: 'Fredoka One', cursive;
-font-family: 'Poppins', sans-serif;
-*/
-
 *{
     margin: 0;
     padding:0;
@@ -13,16 +8,63 @@ body{
     background-color: white;
 }
 
+/* ---- fonts ----*/
+.Fredoka>h1{
+    font-family: 'Fredoka One', cursive;
+}
+
+.Poppins>h2{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* ----------body---------- */
-.conteiner{
+#conteiner{
     width: 1120px;
     height: 465px;
     margin: auto;
     border: 2px solid black; /*bordo da rimuovere*/
 }
 
-header{
+.Fredoka>h1{
     font-family: 'Fredoka One', cursive;
+}
+
+.Poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
     font-weight: 700;
     color: rgba(229,49,112,255);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
 }
+
+h2{
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+
+/* ------ MAIN ----- */
+.team{
+    border: 1px solid chocolate;/*bordo da rimuovere*/
+    height: 289px;
+
+}
+
+.member-name{
+    width: 358px;
+    height: 95px;
+    border: 2px solid chartreuse;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.ROSSI{
+    border: 3px solid purple;
+}
+
