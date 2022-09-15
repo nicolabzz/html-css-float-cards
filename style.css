@@ -50,18 +50,14 @@ h2{
 }
 
 /* ------ MAIN ----- */
-.team{
+.our-team{
     height: 244px;
 
 }
 
-.team-member{
+.member{
     width: 358px;
     height: 95px;
     background-color: rgba(15,14,23,255);
     display: inline-block;
-}
-
-.member-3{
-    float: right;
 }
