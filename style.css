@@ -1,0 +1,28 @@
+/*
+font-family: 'Fredoka One', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+/* ----------body---------- */
+.conteiner{
+    width: 1120px;
+    height: 465px;
+    margin: auto;
+    border: 2px solid black; /*bordo da rimuovere*/
+}
+
+header{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    color: rgba(229,49,112,255);
+}
