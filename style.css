@@ -13,12 +13,12 @@ body{
     font-family: 'Fredoka One', cursive;
 }
 
-.Poppins>h2, .work, .email{
+.Poppins>p, .work, .email{
     font-family: 'Poppins', sans-serif;
 }
 
 /* ----------body---------- */
-#conteiner{
+.conteiner{
     width: 1120px;
     height: 465px;
     margin: auto;
@@ -41,18 +41,6 @@ p{
 }
 
 /* --------- MAIN -------- */
-/* --- line1 --- */
-.line1{
-    height: 122px;
-    font-size: 0px;
-}
-
-/* --- line2 --- */
-.line2{
-    height: 122px;
-    font-size: 0px;
-}
-
 /* --- membri ed info --- */
 .member{
     float: left;
